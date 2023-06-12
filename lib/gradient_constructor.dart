@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/center_column_widget.dart';
 import 'package:hello_world/styled_text.dart';
 
 class GradientContainer extends StatelessWidget {
@@ -15,9 +16,7 @@ class GradientContainer extends StatelessWidget {
           Colors.yellowAccent
         ], begin: Alignment.topLeft, end: Alignment.bottomRight),
       ),
-      child: const Center(
-        child: StyledText(),
-      ),
+      child: const CenterColumnWidget(["Hello there...","My name is","Dhiraj .","Nice to","meet you 👋"])
     );
   }
 }
