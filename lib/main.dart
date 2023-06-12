@@ -1,21 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/gradient_constructor.dart';
 
-void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: GradientContainer(messages: [
+const messageArray = [
         "Hello there...",
         "My name is",
         "Dhiraj .",
         "Nice to",
         "meet you 👋"
-      ],colors: [
-          // Colors.redAccent,
+      ];
+
+const colorArray = [
+          Colors.redAccent,
           Colors.greenAccent,
           Colors.purpleAccent,
           Colors.yellowAccent
-        ]),
+        ];
+
+void main() {
+  runApp(const MaterialApp(
+    home: Scaffold(
+      body: GradientContainer(messages: messageArray,colors: colorArray),
     ),
   ));
 }

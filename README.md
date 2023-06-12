@@ -1,16 +1,26 @@
 # hello_world
+## Instruction
 
-A new Flutter project.
+In main.dart, values in messageArray [messages ] & colorArray[ background ] will be shown in UI.
 
-## Getting Started
+## EXAMPLE
 
-This project is a starting point for a Flutter application.
+const messageArray = [
+        "Hello there...",
+        "My name is",
+        "Dhiraj .",
+        "Nice to",
+        "meet you 👋"
+      ];
 
-A few resources to get you started if this is your first Flutter project:
+const colorArray = [
+          Colors.redAccent,
+          Colors.greenAccent,
+          Colors.purpleAccent,
+          Colors.yellowAccent
+        ];
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Demo for messageArray & colorArray : 
+
+![if not seen, checkout demo.png](demo.png)
