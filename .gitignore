@@ -1,37 +1,11 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# Visual Studio Code related
-.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-.dart_tool/
-.flutter-plugins
-.packages
-.pub-cache/
-.pub/
-/build/
-
 # Only Code Related Rest delete
-/android/
-/ios/
-/linux/
-/macos/
-/test/
+/build/
+.dart_tool/
+.idea/
+android/**
+ios/
+linux/
+macos/
+test/
 web/
-/windows/
+windows/
