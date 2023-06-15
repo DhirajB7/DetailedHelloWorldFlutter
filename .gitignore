@@ -2,5 +2,11 @@
 .idea/
 build/
 *.iml
+# only lib & lib related
 android/
 ios/
+macos/
+linux/
+web/
+windows/
+test/
