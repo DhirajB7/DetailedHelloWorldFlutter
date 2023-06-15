@@ -1,7 +1,9 @@
 # hello_world
 ## Instruction
 
-In main.dart, values in messageArray [messages ] & colorArray[ background ] will be shown in UI.
+- enter command "flutter create hello_world"
+- replace auto generated lib with this lib
+- In main.dart, values in messageArray [messages ] & colorArray[ background ] will be shown in UI.
 
 ## EXAMPLE
 
